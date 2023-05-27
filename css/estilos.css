@@ -1,0 +1,162 @@
+body {
+    background: #e3e3e3;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: #23a26d;
+    padding: 2.5vh;
+    text-align: right;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contenido {
+    width: 90%;
+    margin: auto;
+    margin-top: 8vh;
+}
+
+.contenido table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+.contenido table thead tr {
+    background: #23a26d;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contenido table thead tr th {
+    padding: 12px 0;
+}
+
+.contenido table tbody tr td {
+    padding: 10px 0;
+}
+.contenido table tbody {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.boton {
+    text-align: left;
+}
+
+.boton a {
+    background: #23a26d;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.formulario {
+    background: #fff;
+    width: 40%;
+    padding: 3vh 1vh;
+    border-radius: 2px;
+}
+
+.input-input input {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #23a26d;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.boton input {
+    text-align: center;
+    background: #297c5a;
+    width: 40%;
+    padding: 12px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.boton.center { text-align: center; }
+
+.input-input p.preferencia {
+    margin-top: 0px;
+}
+
+.input-radio {
+    margin-bottom: 1rem;
+}
+
+.input-radio span {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.input-input.select select {
+    width: 94%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #23a26d;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.contenido-menu {
+    width: 20%;
+    background: #23a26d;
+    padding: 0.5rem 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.contenido-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.contenido-menu ul li {
+    margin-bottom: 2rem;
+}
+
+.contenido-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-content {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+.content-content h2 {
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
